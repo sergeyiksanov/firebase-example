@@ -109,6 +109,8 @@ public class MainActivity extends AppCompatActivity {
             this.findViewById(R.id.button_sign_out).setVisibility(View.GONE);
             this.findViewById(R.id.text_messages_title).setVisibility(View.GONE);
             this.findViewById(R.id.recyclerview_messages).setVisibility(View.GONE);
+            this.findViewById(R.id.edittext_message).setVisibility(View.GONE);
+            this.findViewById(R.id.button_send_message).setVisibility(View.GONE);
         }
     }
 }
